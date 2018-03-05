@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import com.ayuhani.mvp.R;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MVCActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText mEtHeight;
     private EditText mEtWeight;
