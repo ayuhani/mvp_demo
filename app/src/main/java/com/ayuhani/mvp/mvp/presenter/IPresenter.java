@@ -1,4 +1,4 @@
-package com.ayuhani.mvp.mvp;
+package com.ayuhani.mvp.mvp.presenter;
 
 /**
  * Created by wang on 2018/3/5.
@@ -11,7 +11,7 @@ public interface IPresenter {
      */
     void start();
 
-    void setBtnText();
+    void onBtnClick(int height, float weight);
 
     /**
      * 调用该方法表示 Presenter 要结束了
